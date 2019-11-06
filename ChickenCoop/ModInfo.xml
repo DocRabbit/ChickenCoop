@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Chicken Coop" />
+		<Description value="To aid in lack of Eggs and Feathers" />
+		<Author value="DocRabbit"/>
+		<Version value="A18" />
+		<Website value="" />
+	</ModInfo>
+</xml>

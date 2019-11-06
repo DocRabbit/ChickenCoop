@@ -1,0 +1,51 @@
+<configs>
+	<append xpath="/blocks">		
+		<block name="Chicken Coop">
+			<property name="Extends" value="cntBirdnest"/>
+			<property name="CustomIcon" value="ChickenCoop"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/ChickenCoop.unity3d?ChickenCoop"/>
+            <property name="ModelOffset" value="0,0,0" />
+			<property name="FilterTags" value="floot,ffurniture"/>
+			<property name="Path" value="solid"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Class" value="Workstation"/>
+			<property name="Material" value="Mwood"/>
+			<property name="MaxDamage" value="1100"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Stacknumber" value="5"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="Chicken Coop"/></property>
+			<property name="WorkstationIcon" value="ui_game_symbol_workbench" />
+			<property name="OpenSound" value="Animals/Chicken/chickenpain" />
+			<property name="CloseSound" value="Animals/Chicken/chickendeath" />
+			<property name="WorkstationJournalTip" value="workbenchTip" />
+			<property class="RepairItems">
+			<property name="resourceWood" value="5"/></property>
+			<property name="TakeDelay" value="15"/>
+			<property name="DescriptionKey" value="Feed the chicken to get eggs and feathers!"/>
+			<property name="EconomicValue" value="776"/>
+			<property name="Group" value="Animals,All"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+        
+        <block name="Animal Bedding">
+			<property name="Class" value="Hay"/>
+			<property name="Material" value="Mhay"/>
+			<property name="CustomIcon" value="animalbedding"/>
+			<property name="DescriptionKey" value="Bedding for Coop"/>
+			<property name="Group" value="Animals,All"/>
+			<property name="Texture" value="196"/>
+			<property name="FuelValue" value="8"/>
+			<property name="CanPickup" value="true"/>
+			<property name="FallDamage" value=".5"/>
+			<drop event="Destroy" name="Animal Bedding" count="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fbuilding,fdecor,fother"/>
+			
+		</block>
+	</append>
+</configs>

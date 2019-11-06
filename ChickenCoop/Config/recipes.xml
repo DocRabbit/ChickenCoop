@@ -1,0 +1,30 @@
+<configs>
+	<append xpath="/recipes">
+
+		<!-- Coop and Fuel aka Animal Feed -->
+		<recipe name="Chicken Coop" count="1" craft_time="10">
+			<ingredient name="resourceScrapIron" count="25"/>
+			<ingredient name="Animal Bedding" count="20"/>
+			<ingredient name="Animal Feed" count="10"/>
+			<ingredient name="resourceWood" count="50"/>
+		</recipe>
+
+
+		<recipe name="Animal Feed" count="2" craft_time="1">
+			<ingredient name="foodCornMeal" count="1"/>
+		</recipe>
+        
+        <recipe name="Animal Bedding" count="1" craft_time="5">
+        <ingredient name="resourceYuccaFibers" count="5"/>
+        </recipe>
+        <recipe name="resourceFeather" count="5" craft_time="120" craft_area="Chicken Coop">
+			<ingredient name="Animal Feed" count="10"/>
+		</recipe>
+		<recipe name="foodEgg" count="2" craft_time="300" craft_area="Chicken Coop">
+			<ingredient name="Animal Feed" count="10"/>
+		</recipe>
+		
+		
+
+	</append>
+</configs>

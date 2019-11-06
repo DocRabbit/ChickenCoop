@@ -1,0 +1,18 @@
+<configs>
+<append xpath="items">
+
+<item name="Animal Feed">
+			<property name="HoldType" value="45"/>
+            <property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="CustomIcon" value="Animalfeed"/>
+            <property name="DescriptionKey" value="AnimalFeedDesc"/>
+			<property name="CustomIconTint" value="ffffff"/>
+			<property name="FuelValue" value="50"/>
+			<property name="Material" value="Manimalfeed"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="Group" value="Animals,All"/>
+		</item>
+		</append>
+		</configs>
